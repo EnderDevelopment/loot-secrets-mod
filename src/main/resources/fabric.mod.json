@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lootsecretsmod",
+  "version": "1.0.0",
+  "name": "Loot Secrets Mod",
+  "description": "A Minecraft mod that adds new structures with loot secrets and small enemies",
+  "authors": ["Maximilian Janzen"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.maximilianjanzen2.lootsecretsmod.LootSecretsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "java": ">=17"
+  }
+}
